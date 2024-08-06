@@ -1,0 +1,260 @@
+body {								/*Estilização tag body*/
+	margin: 0;						/*define margem a margem como zero*/
+	font-family: 'VCR OSD Mono';
+	font-size: 12;
+	line-height: 1.5;		/*define fonte dos elementos textuais pertencentes */
+	background-color: black;		/**/
+	color: white;
+	text-align: justify;					/**/
+}
+
+.navbar {
+	margin: 0;
+	overflow: hidden;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font-weight: lighter;
+}
+
+h2 {
+	text-align: center;
+	font-size: 28px;
+	font-weight: lighter;
+}
+
+h3 {
+	text-align: center;
+	font-size: 32;
+}
+
+.recuo {
+	text-indent: 4em;
+}
+
+.artigo {
+	background-color: black;
+	position: relative;
+	width: 21cm;
+	margin-right: 19px;
+	margin-left: 38px;
+	margin-bottom: 2cm;
+	margin-top: 25px;
+	overflow: hidden;
+	box-shadow: 12px 12px 0px 0px rgba(0,0,0,0.3);
+	font-family: Times New Roman;
+	font-size: 12;
+}
+
+.corpo {
+	background-color: black;
+	inline-size: 50%;
+	border-width: 10px;
+	border-block-style: solid;
+	border-block-color: black;
+}
+
+.container2 {
+	background-color: black;
+	position: relative;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	border: 20px solid black;
+	overflow: hidden;
+	box-shadow: 12px 12px 0px 0px rgba(0,0,0,0.3);
+}
+
+.textbox {
+	margin-top: 150px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.esquerda {
+	width: 33.33333%%;
+	text-align: left;
+	margin-left: auto;
+	margin-top: 105px;
+}
+
+.centro {
+	width: 33.33333%%;
+	text-align: center;
+}
+
+.direita {
+	width: 33.33333%%;
+	text-align: right;
+	margin-right: auto;
+	margin-top: 105px;
+}
+
+.container2 a {
+	color: white;
+}
+
+.container3 {
+	position: relative;
+	background-color: white;
+}
+
+.container3:hover .image {
+	opacity: 0.3;
+}
+
+.container3:hover .middle {
+	opacity: 1;
+}
+
+.artigo {
+	background-color: black;
+	position: relative;
+	width: 21cm;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	overflow: hidden;
+	box-shadow: 12px 12px 0px 0px rgba(0,0,0,0.3);
+	font-family: Times New Roman;
+	font-size: 12;
+}
+
+h3.artigo {
+	margin-top: 3cm;
+}
+
+p.artigo {
+	width: auto;
+	margin-right: 2cm;
+	margin-left: 3cm;
+	margin-bottom: 2cm;
+}
+
+.middle {
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+iframe.artigo {
+	position: relative;
+	width: 30cm;
+	height: 29.7cm;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	display: block;
+	box-shadow: 12px 12px 0px 0px rgba(0,0,0,0.3)/*
+	margin-top: 25px;
+	*/;
+}
+
+iframe.video {
+	position: relative;
+	width: 426px;
+	height: 240px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	display: block;
+}
+
+iframe.short {
+	position: relative;
+	width: 315px;
+	height: 560px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	display: block;
+}
+
+img.centro {
+	opacity: 1;
+	display: block;
+	width: 42%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.image2 {
+	opacity: 1;
+	display: block;
+	width: 30%;
+	height: auto;
+	float: right;
+}
+
+.galeria {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	grid-column-gap: 15px;
+	grid-row-gap: 15px;
+	position: relative;
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/**/
+.rodape {
+	margin-top: 25px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+
+.rodape ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	bottom: 0;
+	width: 100%;
+	z-index: 99;
+}
+
+.rodape li {
+	float: left;
+	width: 100%;
+}
+
+.rodape li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.rodape li a:hover:not(.active) {			/**/
+	color: rgb(218, 197, 13);
+}
+
+.rodape img {
+	vertical-align: middle;
+}
